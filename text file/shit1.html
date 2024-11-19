@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="create_form">
+        <h2><u>Project Management</u></h2>
+        <form>
+            <div class="name">
+                <label for="">Project Name</label>
+                <input type="text" placeholder="Project name" />
+            </div>
+            <div class="Ass">
+                <label for="">Assigned to &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <div class="input">
+                    <input type="text" placeholder="Er Merry Petision" />
+                    <select>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                    </select>
+                </div>
+            </div>
+            <div class="start">
+                <label for="">Start Date</label>
+                <input type="date" placeholder="" />
+            </div>
+            <div class="end">
+                <label for="">End Date</label>
+
+                <input type="date" placeholder="" />
+            </div>
+            <div class="priority">
+                <label for="">Priority&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="radio" />
+                <label for="">High</label>
+                <input type="radio" />
+                <label for="">Average</label>
+                <input type="radio" />
+                <label for="">low</label>
+            </div>
+            <div class="dis">
+                <label for="">Description</label>
+                <input type="text" />
+            </div>
+            <div class="buttons">
+                <input type="submit" />
+                <button>Clear</button>
+            </div>
+        </form>
+    </div>
+</body>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .create_form {
+        height: 800px;
+        width: 500px;
+        /* background-color: aquamarine; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    form {
+        height: 400px;
+        width: 350px;
+        background-color: rgba(15, 244, 252, 0.686);
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .create_form h2 {
+        height: 10px;
+        width: 100px;
+        background-color: yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: red;
+        font-size: 6pt;
+
+    }
+
+    .name {
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .name input{
+        width: 50%;
+    }
+    .Ass {
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* padding-right: 20px; */
+
+    }
+    .Ass label{
+        height: 100%;
+        width: 100%;
+        padding-top: 20px;
+        /* background-color: antiquewhite; */
+    }
+    select {
+        width: 15px;
+        height: 20px;
+        border: none;
+    } 
+
+    .input{
+        height: 20px;
+        width: 50%;
+        display: flex;
+        border: 1px solid rgb(154, 153, 153);
+        /* padding-right: 10px; */
+    }
+
+    .input input{
+        border: none;
+    }
+
+    .start {
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+    }
+    .start input{
+        width: 50%;
+    }
+    .end {
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .end input{
+        width: 50%;
+    }
+    .priority {
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* gap: 50px; */
+    }
+
+    .dis {
+        height: 70px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px
+    }
+
+    .dis input{
+        width: 50%;
+        height: 30px;
+    }
+    .buttons {
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        }
+    .buttons input{
+        height: 30px;
+        width: 70px;
+        background-color: rgb(50, 200, 50);
+        border-radius: 5px;
+    }
+    .buttons button{
+        height: 30px;
+        width: 70px;
+        background-color: rgba(9, 9, 248, 0.501);
+        border-radius: 5px;
+    }
+</style>
+
+</html>

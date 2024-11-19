@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+        <div class="box"><i class="ri-facebook-fill"></i></div>
+        <div class="box"><i class="ri-instagram-line"></i></div>
+        <div class="box"><i class="ri-youtube-fill"></i></div>
+        <div class="box"><i class="ri-linkedin-fill"></i></div>
+        <div class="box"><i class="ri-twitter-fill"></i></div>
+</body>
+<style>
+    body {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .box i{
+        position: relative;
+        font-size: 40px;
+        z-index: 1;
+        color: blue;
+    }
+
+    .box {
+        height: 70px;
+        width: 70px;
+        background-color: blue;
+        border-radius: 50%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: .2s linear;
+
+    }
+
+    .box::after {
+        content: '';
+        height: 70px;
+        width: 70px;
+        background-color: rgb(144, 144, 212);
+        border-radius: 50%;
+        position: absolute;
+        transition: .3s linear;
+    }
+    .box:hover::after{
+        transform: scale(0);
+        color: white;
+    }
+
+    .box:hover i{
+        color: white; 
+    }
+</style>
+
+</html>

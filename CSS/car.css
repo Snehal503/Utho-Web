@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.p:hover .menu{
+     display: block;
+}
+
+.menu{
+    height: 600px;
+    width: 100%;
+    background-color: aquamarine;
+    display: none;
+}
+
+.Fea{
+    height: 600px;
+    width: 30%;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+.Feacher{
+    height: 150px;
+    width: 400px;
+    background-color: antiquewhite;
+
+}
+.hide_f{
+    width: 900px;
+    height: 500px;
+    background-color: lawngreen;
+    position: absolute;
+    left: 430px;
+    top: 150;
+    display: none;
+}
+.Feacher_1:hover .hide_f{
+    display: block;
+   
+}
+ .hide_f:hover{
+    display: block;
+} 

@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rotat{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.content{
+    height: 500px;
+    width: 280px;
+    background-color: rgb(123, 123, 200);
+    transform: rotate(160deg);
+    border: 2px solid rgb(80, 77, 77);
+}
+.content_1{
+    height: 500px;
+    width: 280px;
+    background-color: aquamarine;
+    transform: rotate(160deg);
+    border: 2px solid rgb(76, 73, 73);
+}
+.content_2{
+    height: 500px;
+    width: 280px;
+    background-color: rgb(170, 115, 221);
+    transform: rotate(160deg);
+    border: 2px solid rgb(37, 35, 35);
+}
+.Con{
+    height: 800px;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+
+}
+.Con_1{
+    height: 80%;
+    width: 80%;
+    background-color: rgb(123, 123, 200); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+    border: 2px solid black;
+
+}
+.Con_2{
+    height: 70%;
+    width: 70%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+    border: 2px solid black;
+}
+.Con_3{
+    height: 60%;
+    width: 60%;
+    background-color: rgb(170, 115, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+    border: 2px solid black;
+}
+.con4{
+    height: 50%;
+    width: 50%;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+    border: 2px solid black;
+}
+.Con_3:hover .con4{
+    transform: translate(50px);
+    cursor: pointer;
+}
+.Con_2:hover .Con_3{
+    transform: translate(100px);
+    cursor: pointer;
+}
+.Con_1:hover .Con_2{
+    transform: translate(150px);
+    cursor: pointer;
+}
+.Con:hover .Con_1{
+     transform: translate(200px);
+    cursor: pointer;
+}
+

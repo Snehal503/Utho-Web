@@ -1,0 +1,22 @@
+Utho Website
+HTML:
+
+
+CSS:
+gradient:
+
+background: linear-gradient(283deg, rgba(255,255,255,0.9557072829131653) 0%, rgba(103,135,245,1) 0%, rgba(236,218,218,1) 53%);
+Scorel:
+   ::-webkit-scrollbar {
+    display: none;
+}
+   
+ *  Animation:
+
+    animation-name: movebox;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+  - Short hand properties for animation:
+      animation: mavebox 4s infinite alternate;

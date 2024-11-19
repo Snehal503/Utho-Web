@@ -1,0 +1,55 @@
+CSS:
+Transform Properties for Animation :-
+ 1) Transform:(properties());
+
+A]
+     
+ !) Rotate();  // degree vise rotate 
+ !!)RotateY();
+ !!!)RotateX();
+
+B]
+
+!)Scale();  //increase size
+!!)ScaleY();
+!!!)ScaleX();
+
+C]
+
+!)tarnslate();   //shift right or down
+!!)translateY();
+!!!)translateX();
+
+D]
+
+!)skew();   
+!!)skewY();
+!!!)skewX();
+
+2)Transformation: (time);
+
+!)easy in
+!!)linear
+!!!)easyOut
+!v)easy-in-out
+
+3) Psude Element
+
+!)hover  // mouse hower
+!!)active
+!!!)before
+!v)after : use for create a new div using css.
+.box::after{
+cotent:
+height
+transition
+position
+
+}
+.box:hover::after{
+ 
+
+
+
+
+     
